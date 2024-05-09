@@ -26,8 +26,8 @@ const SearchInput = () => {
 
   return (
     <form onSubmit={handleSubmit} className='flex items-center gap-2'>
-        <input type="text" placeholder='Search' className='input input-bordered rounded-full' value={search} onChange={(e)=> setSearch(e.target.value)} />
-        <button type='submit' className='btn btn-circle bg-sky-500 text-white'>
+        <input type="text" placeholder='Search' className='setWidth input input-bordered bg-black rounded-full' value={search} onChange={(e)=> setSearch(e.target.value)} />
+        <button type='submit' className='btn onHover btn-circle bg-black text-white'>
         <FaSearch className='w-5 h-5 outline-none' />
         </button>
     </form>

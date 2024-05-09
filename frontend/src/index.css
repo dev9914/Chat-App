@@ -4,10 +4,11 @@
 
 
 body{
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0.2)), url("/bg.png");
+    /* background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0.2)), url("/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    background-color: black;
 }
 
 /* dark mode looking scorllbar */
@@ -26,4 +27,33 @@ body{
 
 ::-webkit-scorllbar-thumb:hover {
     background: #242424;
+}
+
+.fontSize{
+    font-size: 30px;
+}
+.textSize{
+    font-size: 20px;
+}
+.margin1{
+    margin-left: -32px;
+}
+.margin2{
+    margin-left: -13px;
+}
+.margin3{
+    margin-top: 17px;
+}
+.setWidth{
+    width: 19vw;
+}
+.onHover:hover{
+    background-color: #1c1c1c;
+}
+.selectedColor{
+    background-color: #1c1c1c;
+}
+.margin4{
+    margin-top: 300px;
+    margin-left: 30px;
 }

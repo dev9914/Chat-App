@@ -7,9 +7,9 @@ const LogoutButton = () => {
   const {loading, logout} = useLogout();
 
   return (
-    <div className='mt-auto'>
+    <div className='mt-4'>
       {!loading ? (
-        <IoIosLogOut onClick={logout} className='w-6 h-6 text-white cursor-pointer' />
+        <IoIosLogOut onClick={logout} className='w-8 h-8 text-white cursor-pointer' />
       ): (
         <span className='loading loading-spinner'></span>
       )}
